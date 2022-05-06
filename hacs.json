@@ -1,0 +1,9 @@
+  
+{
+  "name": "LedFx Integration",
+  "content_in_root": false,
+  "domains": ["light, selector"],
+  "country": "DE",
+  "homeassistant": "0.100.0",
+  "iot_class": "Local Polling"
+}

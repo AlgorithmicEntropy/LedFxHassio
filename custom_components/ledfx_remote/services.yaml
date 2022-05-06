@@ -1,0 +1,19 @@
+set_effect:
+  name: Set Effect
+  description: Set LedFX effect and preset
+  target:
+    integration: ledfx_remote
+    domain: light
+  fields:
+    effect_id:
+      name: Effect id
+      description: Id of the effect (see effect selector)
+      required: True
+      example: rain
+    preset_id:
+      name: Preset id
+      description: Id of the effect preset (see presets selector)
+      required: False
+      example: reset
+      default: reset
+

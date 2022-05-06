@@ -1,0 +1,18 @@
+{
+    "config": {
+      "flow_title": "Add LedFx instance",
+      "step": {
+        "user": {
+          "data": {
+            "name": "Name",
+            "host": "Host",
+            "port": "Port",
+            "ssl": "SSL"
+          }
+        }
+      },
+      "abort": {
+          "already_configured": "Device is already configured"
+      }
+    }
+  }

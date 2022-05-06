@@ -1,0 +1,17 @@
+{
+  "domain": "ledfx_remote",
+  "name": "LedFx",
+  "config_flow": true,
+  "documentation": "",
+  "issue_tracker": "",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@SebastianWallat"
+  ],
+  "iot_class": "local_polling",
+  "version": "0.0.1"
+}
