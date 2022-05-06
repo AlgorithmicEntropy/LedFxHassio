@@ -1,6 +1,8 @@
 # LedFxHassio
 Home Assistant (hass.io) custom component for LedFx
 
+[![Validate with hassfest](https://github.com/AlgorithmicEntropy/LedFxHassio/actions/workflows/hassfest.yml/badge.svg)](https://github.com/AlgorithmicEntropy/LedFxHassio/actions/workflows/hassfest.yml)
+
 #### Description
 Alows basic control of ledFx via homeassistant.
 
