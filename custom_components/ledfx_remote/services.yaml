@@ -2,8 +2,9 @@ set_effect:
   name: Set Effect
   description: Set LedFX effect and preset
   target:
-    integration: ledfx_remote
-    domain: light
+    entity:
+      integration: ledfx_remote
+      domain: light
   fields:
     effect_id:
       name: Effect id
