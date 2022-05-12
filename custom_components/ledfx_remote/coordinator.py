@@ -2,7 +2,7 @@
 from datetime import timedelta
 import logging
 
-from LedFxAPI import LedFxApi
+from LedFxAPI import LedFx
 
 from homeassistant.helpers.update_coordinator import (
     DataUpdateCoordinator,
