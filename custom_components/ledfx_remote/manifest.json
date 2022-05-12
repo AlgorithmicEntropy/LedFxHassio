@@ -5,7 +5,7 @@
   "documentation": "https://github.com/AlgorithmicEntropy/LedFxHassio",
   "issue_tracker": "https://github.com/AlgorithmicEntropy/LedFxHassio/issues",
   "requirements": [
-    "LedFxAPI==0.0.1"
+    "LedFxAPI==0.0.2"
   ],
   "ssdp": [],
   "zeroconf": [],
