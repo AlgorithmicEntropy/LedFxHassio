@@ -6,8 +6,6 @@ from .ledfx_entity import LedFxEntity
 import logging
 import voluptuous as vol
 
-from LedFxAPI import LedFxApi
-
 from homeassistant.helpers import config_validation as cv, entity_platform, service
 from homeassistant import config_entries, core
 from homeassistant.components.light import (
