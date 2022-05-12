@@ -4,7 +4,7 @@ from .coordinator import EffectCoordinator
 
 import asyncio
 
-from LedFxAPI import LedFxApi
+from LedFxAPI import *
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
@@ -28,7 +28,7 @@ async def async_setup_entry(
     # Store a reference to the unsubscribe function to cleanup if an entry is unloaded.
     hass_data["unsub_options_update_listener"] = unsub_options_update_listener
     # api and coo
-    api = LedFxApi(hass_data[CONF_HOST], hass_data[CONF_PORT], hass_data[CONF_SSL])
+    api = LedFx(hass_data[CONF_HOST], hass_data[CONF_PORT], hass_data[CONF_SSL])
     await api.helper.load_helpers()
     coo = EffectCoordinator(hass, api)
     await coo.async_config_entry_first_refresh()
