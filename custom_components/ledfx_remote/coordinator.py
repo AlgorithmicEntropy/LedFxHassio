@@ -14,7 +14,7 @@ _LOGGER = logging.getLogger(__name__)
 class EffectCoordinator(DataUpdateCoordinator):
     """Custom update coordinator"""
 
-    def __init__(self, hass, api: LedFxApi):
+    def __init__(self, hass, api: LedFx):
         super().__init__(
             hass,
             _LOGGER,
