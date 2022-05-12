@@ -4,8 +4,6 @@ from .const import DOMAIN
 
 import logging
 
-from LedFxAPI import LedFxApi
-
 from homeassistant import config_entries, core
 from homeassistant.components.select import SelectEntity
 from homeassistant.helpers.entity import EntityCategory
